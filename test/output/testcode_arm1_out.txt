@@ -1,0 +1,177 @@
+----------------------------------------------
+
+Initial memory content. Instructions Loaded.
+
+Address  | Content
+----------------------------------------------
+  0      | 11100010 00000001 00000000 00000000 
+  4      | 11100011 10000000 00010000 00101000 
+  8      | 11100111 11010001 00100000 00000000 
+ 12      | 11100101 11010001 00110000 00000010 
+ 16      | 11100000 10000000 01010000 00000000 
+ 20      | 11100000 10000010 01010000 00000101 
+ 24      | 11100010 01010011 00110000 00000001 
+ 28      | 00011010 11111111 11111111 11111101 
+ 32      | 11100101 11000001 01010000 00000011 
+ 36      | 11101010 00000000 00000000 00000001 
+ 40      | 00001011 00000101 00000111 00000100 
+ 44      | 11101010 11111111 11111111 11111111 
+ 48      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 52      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 56      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 60      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 64      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 68      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 72      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 76      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 80      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 84      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 88      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 92      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 96      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+100      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+104      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+108      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+112      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+116      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+120      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+124      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+128      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+132      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+136      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+140      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+144      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+148      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+152      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+156      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+160      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+164      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+168      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+172      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+176      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+180      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+184      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+188      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+192      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+196      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+200      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+204      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+208      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+212      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+216      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+220      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+224      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+228      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+232      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+236      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+240      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+244      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+248      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+252      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+
+
+----------------------------------------------
+Data Path: MAR =          0
+Data Path: MAR =          4
+Data Path: MAR =          8
+Data Path: MAR =         40
+Data Path: MAR =         12
+Data Path: MAR =         42
+Data Path: MAR =         16
+Data Path: MAR =         20
+Data Path: MAR =         24
+Data Path: MAR =         28
+Data Path: MAR =         20
+Data Path: MAR =         24
+Data Path: MAR =         28
+Data Path: MAR =         20
+Data Path: MAR =         24
+Data Path: MAR =         28
+Data Path: MAR =         20
+Data Path: MAR =         24
+Data Path: MAR =         28
+Data Path: MAR =         20
+Data Path: MAR =         24
+Data Path: MAR =         28
+Data Path: MAR =         20
+Data Path: MAR =         24
+Data Path: MAR =         28
+Data Path: MAR =         20
+Data Path: MAR =         24
+Data Path: MAR =         28
+Data Path: MAR =         32
+Data Path: MAR =         43
+Data Path: MAR =         36
+Data Path: MAR =         44
+----------------------------------------------
+
+Final memory content.
+
+Address  | Content
+----------------------------------------------
+  0      | 11100010 00000001 00000000 00000000 
+  4      | 11100011 10000000 00010000 00101000 
+  8      | 11100111 11010001 00100000 00000000 
+ 12      | 11100101 11010001 00110000 00000010 
+ 16      | 11100000 10000000 01010000 00000000 
+ 20      | 11100000 10000010 01010000 00000101 
+ 24      | 11100010 01010011 00110000 00000001 
+ 28      | 00011010 11111111 11111111 11111101 
+ 32      | 11100101 11000001 01010000 00000011 
+ 36      | 11101010 00000000 00000000 00000001 
+ 40      | 00001011 00000101 00000111 01001101 
+ 44      | 11101010 11111111 11111111 11111111 
+ 48      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 52      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 56      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 60      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 64      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 68      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 72      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 76      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 80      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 84      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 88      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 92      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+ 96      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+100      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+104      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+108      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+112      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+116      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+120      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+124      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+128      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+132      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+136      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+140      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+144      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+148      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+152      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+156      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+160      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+164      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+168      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+172      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+176      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+180      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+184      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+188      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+192      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+196      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+200      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+204      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+208      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+212      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+216      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+220      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+224      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+228      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+232      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+236      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+240      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+244      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+248      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+252      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+
+

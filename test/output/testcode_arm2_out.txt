@@ -1,0 +1,192 @@
+----------------------------------------------
+
+Initial memory content. Instructions Loaded.
+
+Address  | Content
+----------------------------------------------
+  0      | 11100010 00000001 00000000 00000000 
+  4      | 11100011 10000000 00010000 00100010 
+  8      | 11100011 10000000 01000000 10011000 
+ 12      | 11100001 10100000 10100000 00000100 
+ 16      | 11100100 10011010 00110000 00000100 
+ 20      | 11100000 10000001 00100000 00000011 
+ 24      | 11100001 10100000 01010000 00000010 
+ 28      | 11100100 10001010 01010000 00000100 
+ 32      | 11100000 01000001 01010000 00000010 
+ 36      | 11100100 10001010 01010000 00000100 
+ 40      | 11100000 01100001 01010000 00000010 
+ 44      | 11100100 10001010 01010000 00000100 
+ 48      | 11100000 10000000 01010001 11000011 
+ 52      | 11100100 10001010 01010000 00000100 
+ 56      | 11100000 10000000 01010001 10000011 
+ 60      | 11100100 10001010 01010000 00000100 
+ 64      | 11100000 10000000 01010101 01100011 
+ 68      | 11100100 10001010 01010000 00000100 
+ 72      | 11100001 01010010 00000000 00000001 
+ 76      | 11011011 00000000 00000000 00000001 
+ 80      | 11100010 00000001 11100000 00000000 
+ 84      | 11100100 10001010 11100000 00000100 
+ 88      | 11100101 00110100 11000000 00000100 
+ 92      | 11100101 00110100 10110000 00000100 
+ 96      | 11100001 01111100 00000000 00001011 
+100      | 01101010 00000000 00000000 00000001 
+104      | 11100010 00000001 01010000 00000000 
+108      | 11100100 10001010 01010000 00000100 
+112      | 11100000 10000001 01010000 00001011 
+116      | 01101010 00000000 00000000 00000001 
+120      | 11100010 00000001 01010000 00000000 
+124      | 11100100 10001010 01010000 00000100 
+128      | 11100011 10000000 00010000 00000100 
+132      | 11100111 00111010 11000000 00000001 
+136      | 11100111 10101010 11000000 00000001 
+140      | 11101010 11111111 11111111 11111111 
+144      | 10100000 00000000 00000000 00000000 
+148      | 11000000 00000000 00000000 00000000 
+152      | 11111111 11111111 11111111 11110101 
+156      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+160      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+164      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+168      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+172      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+176      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+180      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+184      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+188      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+192      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+196      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+200      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+204      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+208      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+212      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+216      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+220      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+224      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+228      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+232      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+236      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+240      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+244      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+248      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+252      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+
+
+----------------------------------------------
+Data Path: MAR =          0
+Data Path: MAR =          4
+Data Path: MAR =          8
+Data Path: MAR =         12
+Data Path: MAR =         16
+Data Path: MAR =        152
+Data Path: MAR =         20
+Data Path: MAR =         24
+Data Path: MAR =         28
+Data Path: MAR =        156
+Data Path: MAR =         32
+Data Path: MAR =         36
+Data Path: MAR =        160
+Data Path: MAR =         40
+Data Path: MAR =         44
+Data Path: MAR =        164
+Data Path: MAR =         48
+Data Path: MAR =         52
+Data Path: MAR =        168
+Data Path: MAR =         56
+Data Path: MAR =         60
+Data Path: MAR =        172
+Data Path: MAR =         64
+Data Path: MAR =         68
+Data Path: MAR =        176
+Data Path: MAR =         72
+Data Path: MAR =         76
+Data Path: MAR =         84
+Data Path: MAR =        180
+Data Path: MAR =         88
+Data Path: MAR =        148
+Data Path: MAR =         92
+Data Path: MAR =        144
+Data Path: MAR =         96
+Data Path: MAR =        100
+Data Path: MAR =        108
+Data Path: MAR =        184
+Data Path: MAR =        112
+Data Path: MAR =        116
+Data Path: MAR =        124
+Data Path: MAR =        188
+Data Path: MAR =        128
+Data Path: MAR =        132
+Data Path: MAR =        188
+Data Path: MAR =        136
+Data Path: MAR =        192
+Data Path: MAR =        140
+----------------------------------------------
+
+Final memory content.
+
+Address  | Content
+----------------------------------------------
+  0      | 11100010 00000001 00000000 00000000 
+  4      | 11100011 10000000 00010000 00100010 
+  8      | 11100011 10000000 01000000 10011000 
+ 12      | 11100001 10100000 10100000 00000100 
+ 16      | 11100100 10011010 00110000 00000100 
+ 20      | 11100000 10000001 00100000 00000011 
+ 24      | 11100001 10100000 01010000 00000010 
+ 28      | 11100100 10001010 01010000 00000100 
+ 32      | 11100000 01000001 01010000 00000010 
+ 36      | 11100100 10001010 01010000 00000100 
+ 40      | 11100000 01100001 01010000 00000010 
+ 44      | 11100100 10001010 01010000 00000100 
+ 48      | 11100000 10000000 01010001 11000011 
+ 52      | 11100100 10001010 01010000 00000100 
+ 56      | 11100000 10000000 01010001 10000011 
+ 60      | 11100100 10001010 01010000 00000100 
+ 64      | 11100000 10000000 01010101 01100011 
+ 68      | 11100100 10001010 01010000 00000100 
+ 72      | 11100001 01010010 00000000 00000001 
+ 76      | 11011011 00000000 00000000 00000001 
+ 80      | 11100010 00000001 11100000 00000000 
+ 84      | 11100100 10001010 11100000 00000100 
+ 88      | 11100101 00110100 11000000 00000100 
+ 92      | 11100101 00110100 10110000 00000100 
+ 96      | 11100001 01111100 00000000 00001011 
+100      | 01101010 00000000 00000000 00000001 
+104      | 11100010 00000001 01010000 00000000 
+108      | 11100100 10001010 01010000 00000100 
+112      | 11100000 10000001 01010000 00001011 
+116      | 01101010 00000000 00000000 00000001 
+120      | 11100010 00000001 01010000 00000000 
+124      | 11100100 10001010 01010000 00000100 
+128      | 11100011 10000000 00010000 00000100 
+132      | 11100111 00111010 11000000 00000001 
+136      | 11100111 10101010 11000000 00000001 
+140      | 11101010 11111111 11111111 11111111 
+144      | 10100000 00000000 00000000 00000000 
+148      | 11000000 00000000 00000000 00000000 
+152      | 11111111 11111111 11111111 11110101 
+156      | 00000000 00000000 00000000 00010111 
+160      | 00000000 00000000 00000000 00001011 
+164      | 11111111 11111111 11111111 11110101 
+168      | 11111111 11111111 11111111 11111110 
+172      | 11111111 11111111 11111111 10101000 
+176      | 11111101 01111111 11111111 11111111 
+180      | 00000000 00000000 00000000 01010000 
+184      | 11111101 01111111 11111111 11111111 
+188      | 10100000 00000000 00000000 00100010 
+192      | 10100000 00000000 00000000 00100010 
+196      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+200      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+204      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+208      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+212      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+216      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+220      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+224      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+228      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+232      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+236      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+240      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+244      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+248      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+252      | xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx 
+
+
