@@ -10,7 +10,6 @@ module control_unit (
     output R_W,
     output MOV,
     input MOC,
-    output C_in,
     input ZF, N, C, V, //Flags
     input COND,
     output MA_1, MA_0, MB_1, MB_0, MC_2, MC_1, MC_0, MD, ME,
@@ -24,6 +23,6 @@ module control_unit (
     // Instantiate components---------------------------------------------------
     next_state_decoder NSD (next_state_w, current_state_w, IR, COND, MOC);
     state_register SR (current_state_w, next_state_w, clk, clr);
-    control_signals_encoder CSE (current_state_w, SE, size, FR_ld, RF_ld, IR_ld, MAR_ld, MDR_ld, R_W, MOV, C_in, MA_1, MA_0, MB_1, MB_0, MC_2, MC_1, MC_0, MD, ME, OP);
+    control_signals_encoder CSE (current_state_w, SE, size, FR_ld, RF_ld, IR_ld, MAR_ld, MDR_ld, R_W, MOV, MA_1, MA_0, MB_1, MB_0, MC_2, MC_1, MC_0, MD, ME, OP);
 
 endmodule

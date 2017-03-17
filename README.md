@@ -82,7 +82,7 @@ vvp main > output.txt
 
 ## Customize
 
-By default it will load the 32-bit binary test instructions that are located in **test/input/testcode_arm1.txt**  to RAM and execute them. You can change the instructions directly on that file or create another file with your custom test instructions and change the line **96** of the source file **src/datapath/ram_256.v** to : **fd = $fopen("path/to/custom/test.txt", "r");**. Be sure to follow the same structure as is in the default test file.
+By default it will load the 32-bit binary test instructions that are located in **test/input/testcode_arm1.txt**  to RAM and execute them. You can change the instructions directly on that file or create another file with your custom test instructions and change the line **95** of the source file **src/datapath/ram_256.v** to : **fd = $fopen("path/to/custom/test.txt", "r");**. Be sure to follow the same structure as is in the default test file.
 
 ## Team Members
 

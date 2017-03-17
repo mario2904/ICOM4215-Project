@@ -20,14 +20,13 @@ module ram_256 (
         $display("Address  | Content");
         $display("----------------------------------------------");
         repeat(256 / 4) begin
-            $write("%d      | ", ptr);
+            $write("%d      |", ptr);
             repeat(4) begin
-                $write("%b ", Mem[ptr]);
+                $write(" %b", Mem[ptr]);
                 ptr = ptr + 1;
             end
             $write("\n");
         end
-        $display("\n");
     end
     endtask
 
@@ -102,6 +101,7 @@ module ram_256 (
         $display("----------------------------------------------");
         $display("\nInitial memory content. Instructions Loaded.\n");
         print_memory();
+        $display("\n");
 
         #2200  // Increment time delay if necessary.
         // Print Final Memory Contents -----------------------------------------

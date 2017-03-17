@@ -9,7 +9,6 @@ module control_signals_encoder (
     output reg MDR_ld,
     output reg R_W,
     output reg MOV,
-    output reg C_in,
     output reg MA_1, MA_0, MB_1, MB_0, MC_2, MC_1, MC_0, MD, ME,
     output reg[4:0] OP
     );
@@ -29,7 +28,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 1;
@@ -54,7 +52,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 1;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -79,7 +76,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 1;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 1;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -104,7 +100,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 1;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -129,7 +124,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -156,7 +150,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -181,7 +174,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -206,7 +198,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -233,7 +224,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 1;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -258,7 +248,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 1;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -285,7 +274,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -310,7 +298,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -335,7 +322,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -360,7 +346,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 1;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -385,7 +370,6 @@ module control_signals_encoder (
                 MDR_ld <= 1;
                 R_W <= 1;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -410,7 +394,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 1;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -435,7 +418,6 @@ module control_signals_encoder (
                 MDR_ld <= 1;
                 R_W <= 1;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -460,7 +442,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 1;
@@ -485,7 +466,6 @@ module control_signals_encoder (
                 MDR_ld <= 1;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 1;
                 MB_1 <= 0;
@@ -510,7 +490,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -535,7 +514,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -560,7 +538,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -585,7 +562,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -610,7 +586,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -635,7 +610,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -660,7 +634,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -685,7 +658,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -710,7 +682,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -735,7 +706,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 1;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -760,7 +730,6 @@ module control_signals_encoder (
                 MDR_ld <= 1;
                 R_W <= 1;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -785,7 +754,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 1;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -810,7 +778,6 @@ module control_signals_encoder (
                 MDR_ld <= 1;
                 R_W <= 1;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -835,7 +802,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 1;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -860,7 +826,6 @@ module control_signals_encoder (
                 MDR_ld <= 1;
                 R_W <= 1;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -885,7 +850,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 1;
@@ -910,7 +874,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 1;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -935,7 +898,6 @@ module control_signals_encoder (
                 MDR_ld <= 1;
                 R_W <= 1;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -960,7 +922,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 1;
@@ -985,7 +946,6 @@ module control_signals_encoder (
                 MDR_ld <= 1;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 1;
                 MB_1 <= 0;
@@ -1010,7 +970,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -1035,7 +994,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -1060,7 +1018,6 @@ module control_signals_encoder (
                 MDR_ld <= 1;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 1;
                 MA_0 <= 1;
                 MB_1 <= 0;
@@ -1085,7 +1042,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -1110,7 +1066,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 1;
                 MB_1 <= 0;
@@ -1135,7 +1090,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 1;
                 MB_1 <= 0;
@@ -1160,7 +1114,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 1;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -1185,7 +1138,6 @@ module control_signals_encoder (
                 MDR_ld <= 1;
                 R_W <= 1;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 0;
@@ -1210,7 +1162,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 0;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 1;
@@ -1235,7 +1186,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 1;
@@ -1260,7 +1210,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 1;
@@ -1285,7 +1234,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 1;
@@ -1310,7 +1258,6 @@ module control_signals_encoder (
                 MDR_ld <= 0;
                 R_W <= 0;
                 MOV <= 1;
-                //C_in = ;
                 MA_1 <= 0;
                 MA_0 <= 0;
                 MB_1 <= 1;

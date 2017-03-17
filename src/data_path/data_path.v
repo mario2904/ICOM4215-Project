@@ -11,7 +11,6 @@ module data_path(
     input MDR_ld,
     input R_W,
     input MOV,
-    input C_in,
     input MA_1, MA_0, MB_1, MB_0, MC_2, MC_1, MC_0, MD, ME,
     input [4:0] OP,
     input clk, clr
@@ -37,6 +36,7 @@ module data_path(
 
     // Shifter Outputs
     wire [31:0] shifter_to_mux_B;
+    wire shifter_carry_out;
 
     // Register-File Outputs
     wire [31:0] rf_PA_to_ALU, rf_PB_to_shifter;
@@ -67,13 +67,13 @@ module data_path(
     mux_2x1_32 mux_E (mux_E_to_MDR, ME, data_out, alu_out);
 
     // ALU
-    alu mega_alu(alu_out, alu_flags, rf_PA_to_ALU, mux_B_to_ALU, mux_D_to_ALU, C_in);
+    alu mega_alu(alu_out, alu_flags, rf_PA_to_ALU, mux_B_to_ALU, mux_D_to_ALU, current_flags[1], shifter_carry_out);
 
     // Condition Tester
     condition_tester cond_test(Cond, current_IR[31:28], current_flags[3], current_flags[2], current_flags[1], current_flags[0]);
 
     // Shifter
-    shifter mega_shifter (shifter_to_mux_B, current_IR, rf_PB_to_shifter);
+    shifter mega_shifter (shifter_to_mux_B, shifter_carry_out, current_IR, rf_PB_to_shifter, current_flags[1]);
 
     // RAM
     ram_256 ram (mem_data_out_to_sign_extender, MOC, current_MDR, R_W, MOV, current_MAR[7:0], size);
